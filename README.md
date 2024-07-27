@@ -17,15 +17,23 @@ Licensed through the [Unlicense](LICENSE)
 # Usage
 For the script to work you have to install either wget or curl on your own.
 
-## 1. Download the script
-- wget https://raw.githubusercontent.com/juicedrainman/debian-essentials/main/quick-setup.sh
+## 1. log in to sudo && install wget/curl
+``su``
+``apt-get install wget``
 
 ``or``
 
-- curl -O https://raw.githubusercontent.com/juicedrainman/debian-essentials/main/quick-setup.sh
+``apt-get install curl``
 
-## 2. Make the script executable
-chmod +x quick-setup.sh
+## 2. Download the script
+- ``wget https://raw.githubusercontent.com/juicedrainman/debian-essentials/main/quick-setup.sh``
 
-## 3. Run the script
-./quick-setup.sh
+``or``
+
+- ``curl -O https://raw.githubusercontent.com/juicedrainman/debian-essentials/main/quick-setup.sh``
+
+## 3. Make the script executable
+``chmod +x quick-setup.sh``
+
+## 4. Run the script
+``./quick-setup.sh``
