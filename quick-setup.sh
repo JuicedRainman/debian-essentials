@@ -20,4 +20,4 @@ sudo systemctl start ssh
 sudo apt autoremove -y
 sudo apt clean
 
-echo "Packages installed. Go fuck around.
+echo "Packages installed. Go fuck around."
