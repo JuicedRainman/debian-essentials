@@ -20,7 +20,7 @@ For the script to work you have to install either wget or curl on your own.
 ## 1. Download the script
 - wget https://raw.githubusercontent.com/juicedrainman/debian-essentials/main/quick-setup.sh
 
-or
+``or``
 
 - curl -O https://raw.githubusercontent.com/juicedrainman/debian-essentials/main/quick-setup.sh
 
